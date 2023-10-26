@@ -1,7 +1,0 @@
-# Is configurability an architectural characteristic?
-
-## Status
-Accepted
-
-## Decision
-No, camera is blackbox, we don't need separate configurations on backend
