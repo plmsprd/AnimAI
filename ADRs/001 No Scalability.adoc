@@ -1,6 +1,7 @@
 # Do we need Scalibility?
 
 ## Status
+Accepted
 
 ## Decision
 

@@ -1,1 +1,8 @@
-# AnimAITest imageimage::images/architecture.png[Architecture ideas]
+# AnimAI
+
+## Test image
+
+Look at this
+image::images/architecture.png[Architecture ideas]
+
+    
