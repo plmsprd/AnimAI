@@ -8,3 +8,4 @@ Do videos need to be protected?
 
 ## Decision
 geoprivacy
+

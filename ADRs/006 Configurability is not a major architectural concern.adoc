@@ -5,3 +5,5 @@ Accepted
 
 ## Decision
 No, camera is blackbox, we don't need separate configurations on backend
+
+
