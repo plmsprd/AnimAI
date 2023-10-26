@@ -3,6 +3,8 @@
 ## Test image
 
 Look at this
+
+
 image::images/architecture.png[Architecture ideas]
 
     
