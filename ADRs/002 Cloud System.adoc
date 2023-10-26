@@ -1,0 +1,10 @@
+# Do we need a cloud system?
+
+## Status
+Accepted
+
+## Contect
+Alternative: Installed on user computer
+
+## Decision
+Yes, we need cloud system to share video for training with other users

@@ -1,0 +1,10 @@
+# Which level of Security for videos?
+
+## Status 
+Accepted
+
+## Context
+Do videos need to be protected?
+
+## Decision
+geoprivacy

@@ -1,0 +1,7 @@
+# Is Performance an architectural characteristic? 
+
+## Status
+Accepted
+
+## Decision
+No, It is a manual process to get data. Not a real issue on cloud. could pick low cost storare.
