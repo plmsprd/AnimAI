@@ -1,0 +1,10 @@
+# Is Availability an important architectural characteristic? 
+
+## Status
+Accepted
+
+## Discussion
+Important, but not crucial. Only for alert message. Need availability to adjust camera settings. 
+
+## Decision
+No, not among the top 3 characteristics.

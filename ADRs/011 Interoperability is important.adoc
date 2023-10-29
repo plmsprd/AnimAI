@@ -1,0 +1,10 @@
+# Is Interoperability an important architectural characteristic? 
+
+## Status
+Accepted
+
+## Discussion
+TL: Yes. PN: Yes. BY: Not top of the list.
+
+## Decision
+Yes

@@ -1,0 +1,15 @@
+# Architectural Characteristics Summary
+
+## Status
+Accepted
+
+## Decision
+As a team we chose the following:
+
+. cost
+. performance (reasonable performance)
+. scalability (long term scalability / we don't want to hinder growth)
+. extensibility
+. simplicity
+. testability
+. interoperability

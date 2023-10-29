@@ -1,0 +1,11 @@
+# Is Testability an important architectural characteristic? 
+
+## Status
+Accepted
+
+## Discussion
+TL: Yes, because of small team. BY: No, because the complex alogithms
+are outside of our system. CK: No. PN: Yes, need to be able to upload data and not loose anything.
+
+## Decision
+Yes

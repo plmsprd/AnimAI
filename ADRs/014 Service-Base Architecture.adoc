@@ -1,0 +1,9 @@
+# Select architecture
+
+## Status
+Accepted
+
+## Discussion
+With the cost factor at the top of our list, we excluded space-based and microservices. We excluded event-driven due to costs and complexity.
+
+The remaining ones were hardes to choose, but we excluded microkerner, layered monolith and modular monolith based on scalability.

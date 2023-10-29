@@ -5,5 +5,5 @@ Accepted
 
 ## Decision
 
-No realtime readout, user neeed to get SD card
+No realtime readout, user need to get SD card
 
