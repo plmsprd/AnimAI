@@ -14,3 +14,6 @@ Trade-offs for service-based architectures to be aware: testing is harder than m
 
 Service-based has the advantage expanding one domain without affecting another domain
 while keeping cost and complexity low.
+
+## Decision
+Service-based Architecture

@@ -1,0 +1,11 @@
+# Role of user computer
+
+## Status
+Accepted
+
+## Discussion
+It seems tempting to move the load and to the user computer. However, if two or more different detection/training platforms are used, the same video has to be uploaded multiple times, which is certainly not intended.
+
+
+## Decision 
+User will not upload to third-party platforms lik tensor flow directly. Central storage will be used.
