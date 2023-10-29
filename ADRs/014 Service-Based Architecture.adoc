@@ -12,5 +12,5 @@ We chose Service-based Architecture because of better scalability and performanc
 
 Trade-offs for service-based architectures to be aware: testing is harder than microservices and the deployment pipeline needs more coordination. service-based doesn't support elasticity very well, but this is not needed.
 
-
-Service-based has advantage of good cost hain expanding one domain without affecting another one.
+Service-based has the advantage expanding one domain without affecting another domain
+while keeping cost and complexity low.
