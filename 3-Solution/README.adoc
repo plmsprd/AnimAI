@@ -2,8 +2,8 @@
 
 ## Weak internet  connectivity 
 
-image::images/the-architecture-lorawan.png[]
+image::../images/the-architecture-lorawan.png[]
 
 ## Strong internet connectivity
 
-image::images/the-architecture-high-speed.png[]
+image::../images/the-architecture-high-speed.png[]

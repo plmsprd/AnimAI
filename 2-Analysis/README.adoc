@@ -2,7 +2,7 @@
 
 ## Overview
 
-image::images/context.svg[Context Picture]
+image::../images/context.svg[Context Picture]
 
 
 ## Architectural Characteristics
@@ -23,7 +23,7 @@ characteristics (ADR 001-013). We selected the following characteristics:
 In ADR 014 we picked the compromise of 
 a service-based architecture.
 
-image::images/characteristics.png[]
+image::../images/characteristics.png[]
 
 ## Actor / Actions
 
