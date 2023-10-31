@@ -6,15 +6,13 @@ image::images/animal.png[AnimAI]
 
 The picture shows a Peary Caribou - one of the endangered species in Canada.    
 
-## xref:1-Requirements/README.adoc[1. Requirements]
+## Table of contents
 
-## xref:1-Requirements/[1. Requirements]
+link:1-Requirements/[1. Requirements]
 
-## link:1-Requirements/README.adoc[1. Requirements]
+link:2-Analysis/[2. Analysis]
 
-## link:1-Requirements/[1. Requirements]
-
-## link:ADRs/[ADRs]
+link:ADRs/[ADRs]
 
 
 

@@ -1,5 +1,26 @@
 # Analysis
 
+## Overview
+
+image::images/context.svg[Context Picture]
+
+
+## Architectural Characteristics
+
+
+## Actor / Actions
+
+### Staff
+
+. Initialize Camera. 
+
+### User
+
+. 
+
+
+
+
 ## Platform costs
 
 ### roboflow
