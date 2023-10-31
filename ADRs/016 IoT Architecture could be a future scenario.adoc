@@ -1,0 +1,16 @@
+# IoT Architecture
+
+## Status
+
+Accepted
+
+## Discussion
+
+The requirements tell us to not consider video uploads from the camera due to remote usage.
+
+Some machine learning platforms encourage the connection directly from the microcontroller.
+If there was a resonable good internet connection, short videos and pictures could likely be uploaded directly. 
+
+## Decision 
+
+We will mention it for future scenarios to have a tighter integration of the camera.
