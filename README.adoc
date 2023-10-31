@@ -1,10 +1,22 @@
 # AnimAI
 
-## Test image
+Team AnimAI is a group of 4 people - two ladie and two gentlemen. Three of them work together at the same company in Canada. The fourth friend worked with one of them in the Toastmasters District leadership team in British Columbia and joined the group from China.   
 
-Look at this
+image::images/animal.png[AnimAI]
+
+The picture shows a Peary Caribou - one of the endangered species in Canada.    
+
+## xref:1-Requirements/README.adoc[1. Requirements]
+
+## xref:1-Requirements/[1. Requirements]
+
+## link:1-Requirements/README.adoc[1. Requirements]
+
+## link:1-Requirements/[1. Requirements]
+
+## link:ADRs/[ADRs]
 
 
-image::images/architecture.png[Architecture ideas]
+
 
     

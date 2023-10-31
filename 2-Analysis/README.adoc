@@ -1,0 +1,12 @@
+# Analysis
+
+## Platform costs
+
+### roboflow
+
+Free for research
+
+### Edge Impulse 
+
+Free Community edition for  students, universities, and individual developers at companies with less than 15 employee.
+

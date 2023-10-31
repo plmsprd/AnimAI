@@ -1,0 +1,117 @@
+# 1. The problem 
+
+## Context
+
+Wildlife conservation didn't adapt the latest technology, which could
+help address the current mass-extincting crisis and safe species. The goal is to accelerate this uptake.  
+
+
+## About the organization 
+
+. https://wildlife.ai/[Wildlife.ai] is a charitable trust that uses artificial intelligence to accelerate wildlife conservation.
+
+. Wildlife.ai's purpose is to ensure artificial intelligence is widely applied to protect biodiversity.
+
+. Wildlife.ai works with grassroots wildlife conservation projects and develop open-source solutions using machine learning.
+
+. Wildlife.ai also organises community events, seminars and educational activities to build and maintain machine learning solutions to reduce the current rate of species extinction.
+
+
+
+## "Wildlife Watcher" Project
+
+. Wildlife.ai wants to build an open-source wildlife camera that gets triggered based on the movement of target animals, identifies the species on the device and reports the observation in near real-time to biologists, enabling more efficient species conservation efforts worldwide.
+
+. It is a smart camera that can capture and record a variety of smaller animals using AI to identify them and provide relevant analystics of the animal population to local biologists. 
+
+. Traditional camera traps capture larger animals, but they don't work for  smaller animals and they don't provide a sense of biodiversity.
+
+. The goal is multi-species monitoring in an ongoing way and have the backend system automatically record the species indentification, run biodiversity statistics in the background, get realtime data on the health of an ecosystem in ways we haven't been able to do in the past, and leverage an open source community and leverage a larger community of expert.
+
+. Camera successfully managed the local challenge: monitoring of 40 species over three weeks. Now take the system and go globally.
+
+. The Wildlife Watcher design will be open-sourced. An onboard/enroll system could be an option to the architecture
+
+. Wildlife Watcher currently relies on the following modules: 
+https://jupyter.org/[jupyter], 
+https://www.gbif.org/[GBIF], 
+https://wandb.ai/site[W&B], 
+https://zenodo.org/[Zenodo], 
+https://www.inaturalist.org/[iNaturalist], 
+https://edgeimpulse.com/[Edge Impulse], 
+https://docs.voxel51.com/[FiftyOne]. 
+The goal is to find a solution to connect the in-house software with these modules to make most use of the devices.
+
+__GBIF__, The Global Biodiversity Information Facility, is an international organisation that focuses on making scientific data on biodiversity available via the Internet using web services.
+It is an international network and data infrastructure funded by the world's governments.
+
+__W&B__ or Weights & Biases helps you streamline your ML workflow from end to end
+
+__Zenodo__ is a general-purpose open repository for research papers, data sets, research software, reports, and other digital artifacts
+
+__iNaturalist__ is an American 501 nonprofit social network of naturalists, citizen scientists, and biologists built on the concept of mapping and sharing observations of biodiversity across the globe. iNaturalist may be accessed via its website or from its mobile applications
+
+__FiftyOne__ is an open-source tool for building high-quality datasets and computer vision models
+
+__Edge Impulse__ is the leading development platform for machine learning on edge devices. Edge computing devices are: IoT sensors, smart cameras, uCPE equipment, servers and processors.
+
+
+
+## Users 
+
+. biologists and nature enthusiasts (hundreds/global)
+
+. users are likely to have multiple cameras
+
+## Technical Support
+
+. volunteers with varied level of expertise will support the solution
+
+## Requirements 
+
+. Users should be able to communicate with the camera using a mobile app (to set the cameras on/off and adjust settings without opening the cameras)
+
+. Camera control preference is local setup instead of centralized control
+
+. Users should be able to analyse the videos using common camera trap labelling platforms; open source platforms: 
+https://www.wildlifeinsights.org/[Wildlife Insights],
+https://wildeyeconservation.org/traptagger[TrapTagger], or
+https://gitlab.com/trapper-project/trapper[Trapper]
+
+. Users should be able to publish frames from the videos to iNaturalist for experts to help with the identification of the species
+
+. Users should be able to easily train edge models. using their own labelled videos, and upload the models to the cameras (__maybe__ using third party services like 
+https://roboflow.com/[Roboflow], 
+https://edgeimpulse.com/[Edge Impulse] or 
+https://www.tensorflow.org/lite[TensorFlow Lite]
+)
+
+. Users should be able to publish the species occurrences to GBIF the Camtrap DP, data exchange format
+
+. Cameras should be able to process the footage on the device and send a small alert message to the users via LoraWan, 3G or satellite.
+
+. The footage will be stored in a SD card and processed on the device. Users will be able to retrieve the footage from the SD Card. Cameras will be able to send small alert messages to the users via LoraWan, 3G or satellite but not the actual footage.
+
+. Most of the cameras will be deployed in remote areas so no internet connection
+
+. Videos would be around 5-10 seconds long
+
+_Wildlife Insights_ streamlines decision-making by providing machine learning models and other tools to manage, analyze and share camera trap data
+
+_TrapTagger_ is an open-source web application that uses the latest artificial intelligence technologies, in combination with highly-optimised manual annotation interfaces, to process camera-trap data.
+
+_Trapper_ is an open source, django based web application for data management in camera trapping studies. Organization and spatio-temporal querying of picture and video files.
+
+_Roboflow_ is an easy-to-use, production-ready inference server for computer vision supporting deployment of many popular model architectures and fine-tuned models.
+
+__Edge Impulse__ is the leading development platform for machine learning on edge devices. Edge computing devices are: IoT sensors, smart cameras, uCPE equipment, servers and processors.
+
+_TensorFlow Lite_ is a set of tools that enables on-device machine learning by helping developers run their models on mobile, embedded, and edge devices.
+
+## Context  
+
+. The camera hardware will be a combination of ultra-low-power microcontrollers (up to 512KB Flash) and interchangeable modules (e.g. optical sensor, IR lights, transceiver module, batteries) enclosed in a watertight and 3D printed enclosure.
+
+. The API for the specific camera hasn't been selected, allowing teams to specify what behaviour they might need from the hardwar, helping the team choose appropriate hardware.
+
+
