@@ -51,6 +51,8 @@ image::../images/characteristics.png[]
 . Import Shared Video from other user
 . Import Shared Training data
 . Select best frame from video for Expert
+. Review reports for own videos
+. Review reports for geographic region
 
 ### Camera
 
