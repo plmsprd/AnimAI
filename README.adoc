@@ -12,6 +12,8 @@ link:1-Requirements/[1. Requirements]
 
 link:2-Analysis/[2. Analysis]
 
+link:3-Solution/[3. Solution]
+
 link:ADRs/[ADRs]
 
 

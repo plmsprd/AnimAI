@@ -107,6 +107,7 @@ _Roboflow_ is an easy-to-use, production-ready inference server for computer vis
 __Edge Impulse__ is the leading development platform for machine learning on edge devices. Edge computing devices are: IoT sensors, smart cameras, uCPE equipment, servers and processors.
 
 _TensorFlow Lite_ is a set of tools that enables on-device machine learning by helping developers run their models on mobile, embedded, and edge devices.
+TensorFlow is a free and open-source machine learning library.
 
 ## Context  
 
