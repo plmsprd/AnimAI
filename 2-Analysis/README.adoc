@@ -2,7 +2,7 @@
 
 ## Overview
 
-image::../images/context.svg[Context Picture]
+image::../images/context.png[Context Picture]
 
 
 ## Architectural Characteristics
