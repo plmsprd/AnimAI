@@ -44,7 +44,7 @@ The design goal for the microcontroller is to filter out as much of the false po
 influences like wind should be eliminated as early as possible in the process to avoid unnecessary videos clogging our system.
 
 
-## Possible opportuniy in the future: Strong internet connectivity
+## Possible opportunity in the future: Strong internet connectivity
 
 Faster internet connections like satelite-based Starlink would allow 
 video upload in the future even in remote areas. This would allow new use cases where the training could start on the mothe most of the work can be done remotely. 
