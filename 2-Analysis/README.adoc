@@ -100,7 +100,7 @@ the request for identification.
 ## Platform costs
 
 Before we offer third party tool / platforms, it is good to 
-look at potential fees. We didn't see any reason to exlude one
+look at potential fees. We didn't see any reason to exclude one
 particular platform.
 
 Wildlife Insights, TrapTagger and Trapper are Open Source.
