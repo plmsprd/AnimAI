@@ -9,7 +9,7 @@ A 1KB message can take several seconds.
 
 The video size depends on the resolution, the color depth, the frame rate and the length.
 
-1280x720 pixel with 8bit color depth would be 1280x720x(3x8) = 22,118,400 bit = 2,764,800 bytes = 2.64 MB per frame. Assuming the standard framerate of 24 frames/s and a 5-10 second clip, the video would be between 316MB and 633MB. Compression like H.264 will bring the clip size down to about 31 MB for a 5s video. This is still to much for LoRaWAN and the user needs to manually download the videos from the SD card in the camera. 
+1280x720 pixel with 8bit color depth would be 1280x720x(3x8) = 22,118,400 bit = 2,764,800 bytes = 2.64 MB per frame. Assuming the standard framerate of 24 frames/s and a 5-10 second clip, the video would be between 316MB and 633MB. Compression like H.264 will bring the clip size down to about 31 MB for a 5s video. This is still too much for LoRaWAN and the user needs to manually download the videos from the SD card in the camera. 
 
 ### Alerts 
 
@@ -26,10 +26,11 @@ This architecture belongs to the category of distributed architectures.
 It is necessary to devide our domain.
 We have a coarse grained partitioning into 4 units:
 
-. Data Management: data storage, filtering and spacial queries
+. User Interface
 . Event Processing: alerts and notifications
 . Labeling / Training / ML: gateways to varied internal and external platforms
-. Ownership: camera & user registration and authentication
+. Data Management: data storage, filtering and spacial queries; we added here camera & user   
+registration and authentication
 
 Each of these unit contain multiple modules. The training and event processing are probably 
 the first parts that require scalability in the future when the number of users or the number of camera per user increases. The service-based architecture allows growth without big expenses or high complexity. Performance and Scalabilitiy were our top system characteristics right after the costs.
