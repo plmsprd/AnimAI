@@ -50,8 +50,8 @@ are correct before shipping.
 . Assign content to Workspace
 . Download Video from Camera (offline)
 . Upload Video
-. Select Video for Labeling
-. Select Video for Training
+. Select Video for Labeling with criteria
+. Select Video for Training with criteria
 . Download Training Model
 . Share Video 
 . Import Shared Video from other user

@@ -1,6 +1,6 @@
 # Solution
 
-## Weak internet  connectivity 
+## Standard Scenario: Weak internet  connectivity 
 
 LoRaWAN has a transfer rate of 250 bits/s up to 22 kilobits/s.
 A 1KB message can take several seconds.
@@ -44,13 +44,37 @@ The design goal for the microcontroller is to filter out as much of the false po
 influences like wind should be eliminated as early as possible in the process to avoid unnecessary videos clogging our system.
 
 
-## Strong internet connectivity
+## Possible opportuniy in the future: Strong internet connectivity
 
 Faster internet connections like satelite-based Starlink would allow 
 video upload in the future even in remote areas. This would allow new use cases where the training could start on the mothe most of the work can be done remotely. 
-However, power consumption and cost 
-will limit the use if at all. 
+However, power consumption and cost might limit the use. 
+
+The diagram is the same with the modifications circled in red.
 
 
 
 image::../images/the-architecture-high-speed.png[]
+
+
+## Verify the solution with dynamic processes
+
+### Video Upload
+
+We assume that we have an authenticated user already. The goal is to upload a video and expect the system to check for spam etc. We also expect that the system will organize the content.
+
+image::../images/seq_upload.png[]
+
+
+### Training 
+
+Training usually happens with a set of videos that were previously prepared ("labeled"). Training is a repetitive process (loop) that stopps when the model reached certain quality threshold. The diagram shows a recursive process. That is the reason the "Labeling / Training / ML" unit  
+
+image::../images/seq_training.png[]
+
+
+### Turn on camera
+
+Turning the camera on means activate the camera for species detection. The user will use the phone app which will connect to the backend system which will try to reach the camera.
+
+image::../images/seq_camera_on.png[]

@@ -59,7 +59,7 @@ __Edge Impulse__ is the leading development platform for machine learning on edg
 
 ## Users 
 
-. biologists and nature enthusiasts (hundreds/global)
+. biologists and nature enthusiasts (hundreds/global) with no links to wildlife.ai
 
 . users are likely to have multiple cameras
 
