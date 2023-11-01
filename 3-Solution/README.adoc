@@ -23,8 +23,8 @@ image::../images/the-architecture-lorawan.png[]
 "Wildlife Watcher - cloud" is structured as service-based architecture. 
 This gives Wildlife.ai a quick start while keeping costs low and maintainability high.
 This architecture belongs to the category of distributed architectures.
-It is necessary to devide our domain.
-We have a coarse grained partitioning into 4 units:
+It is necessary to divide our domain.
+We have a coarse-grained partitioning into 4 units:
 
 . User Interface
 . Event Processing: alerts and notifications
