@@ -1,0 +1,14 @@
+# Need scalability to some degree
+
+## Status
+Accepted
+
+## Discussion
+
+Even though we originally thought we can get away without scalability,
+some algothims will run in out backend instead of on the third party system.
+Also, realtime notifications are important.
+
+## Decision
+
+Add scalability to the architecture characteristics
