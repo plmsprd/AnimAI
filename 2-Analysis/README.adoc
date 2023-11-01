@@ -30,6 +30,12 @@ image::../images/characteristics.png[]
 ### Staff
 
 . Initialize Camera for shipping
+. Create camera inventory records
+
+We added the role of staff who will be needed to
+facilitate the registration and capabilities of the 
+cameras using the system making sure the serial numbers
+are correct before shipping.
 
 ### User
 
@@ -54,15 +60,33 @@ image::../images/characteristics.png[]
 . Review reports for own videos
 . Review reports for geographic region
 
+We added the concept of Workspaces which is 
+like a Project and often the container for the 
+training. 
+
+
 ### Camera
 
 . Send periodic occurance
 . Send immediate occurance
 . Send camera health alert
  
+With better connectivity and capabilties,
+the Smart Camera will be able to do more 
+functions like uploading videos that require
+manual handling at the moment.
+ 
+ 
 ### Expert system
 
 . Receive species identification from expert
+
+The expert will be using the iNaturalist 
+platform. The Wildlife Watcher will receive a 
+notification, when an expert responds to
+the request for identification.
+
+
 
 
 ## Platform costs
