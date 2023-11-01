@@ -33,7 +33,7 @@ We have a coarse-grained partitioning into 4 units:
 registration and authentication
 
 Each of these unit contain multiple modules. The training and event processing are probably 
-the first parts that require scalability in the future when the number of users or the number of camera per user increases. The service-based architecture allows growth without big expenses or high complexity. Performance and Scalabilitiy were our top system characteristics right after the costs.
+the first parts that require scalability in the future when the number of users or the number of camera per user increases. The service-based architecture allows growth without big expenses or high complexity. Performance and Scalability were our top system characteristics right after the costs.
 Additionally, this service-based architecture allows moving single modules into a microservice
 for example if the Notification Module need Elasticity.
 
