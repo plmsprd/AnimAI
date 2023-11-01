@@ -20,7 +20,11 @@ image::../images/the-architecture-lorawan.png[]
 
 ### Service-based Architecture
 
-"Wildlife Watcher - cloud" is structure as service-based architecture. We have a coarse grained partitioning into 4 units:
+"Wildlife Watcher - cloud" is structured as service-based architecture. 
+This gives Wildlife.ai a quick start while keeping costs low and maintainability high.
+This architecture belongs to the category of distributed architectures.
+It is necessary to devide our domain.
+We have a coarse grained partitioning into 4 units:
 
 . Data Management: data storage, filtering and spacial queries
 . Event Processing: alerts and notifications
@@ -29,6 +33,8 @@ image::../images/the-architecture-lorawan.png[]
 
 Each of these unit contain multiple modules. The training and event processing are probably 
 the first parts that require scalability in the future when the number of users or the number of camera per user increases. The service-based architecture allows growth without big expenses or high complexity. Performance and Scalabilitiy were our top system characteristics right after the costs.
+Additionally, this service-based architecture allows moving single modules into a microservice
+for example if the Notification Module need Elasticity.
 
 
 ### Smart Camera
@@ -43,6 +49,7 @@ Faster internet connections like satelite-based Starlink would allow
 video upload in the future even in remote areas. This would allow new use cases where the training could start on the mothe most of the work can be done remotely. 
 However, power consumption and cost 
 will limit the use if at all. 
+
 
 
 image::../images/the-architecture-high-speed.png[]
