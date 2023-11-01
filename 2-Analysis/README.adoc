@@ -8,7 +8,7 @@ image::../images/context.png[Context Picture]
 ## Architectural Characteristics
 
 Many of our ADRs deal with the architectural 
-characteristics (ADR 001-013). We selected the following characteristics:
+characteristics (ADR 001-013, 017). We selected the following characteristics:
 
 . cost
 . performance (reasonable performance)
@@ -18,6 +18,9 @@ characteristics (ADR 001-013). We selected the following characteristics:
 . testability
 . interoperability
 
+We also considered maintainability. 
+
+
 ## Architecture Decision 
 
 In ADR 014 we picked the compromise of 
@@ -26,6 +29,11 @@ a service-based architecture.
 image::../images/characteristics.png[]
 
 ## Actor / Actions
+
+We used the actor/action approach to break down the domain. We 
+added 3 other actors, but they are only used in very few 
+use cases.
+
 
 ### Staff
 
@@ -90,6 +98,12 @@ the request for identification.
 
 
 ## Platform costs
+
+Before we offer third party tool / platforms, it is good to 
+look at potential fees. We didn't see any reason to exlude one
+particular platform.
+
+Wildlife Insights, TrapTagger and Trapper are Open Source.
 
 ### roboflow
 
