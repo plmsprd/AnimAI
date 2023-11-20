@@ -1,0 +1,17 @@
+# ADR-011 Interoperability Is An Important Architectural Characteristic 
+
+## Status
+Accepted
+
+## Context
+The system should be able to integrate other systems, such as Tensor Flow, GBIF, iNaturalist etc.
+
+
+## Decision
+Yes
+
+## Consultation
+Torsten Lenk: Yes. 
+Pamela Naval: Yes. 
+Bruce Yu: Not top of the list.
+

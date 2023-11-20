@@ -1,0 +1,16 @@
+# ADR-012 Extensibility Is An Important Architectural Characteristic
+
+## Status
+Accepted
+
+## Context
+The system may need to integrate other new system for AI training, or connect with other systems to retrieve/request data.
+
+## Decision
+Yes
+
+
+## Consultation
+Bruce Yu: No, once it's launched, we would not make too many changes. 
+Torsten Lenk: We don't expect the labeling/training to change frequently but solution should be open for new platforms.
+

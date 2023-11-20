@@ -1,0 +1,21 @@
+# ADR-013 Architectural Characteristics Summary
+
+## Status
+Accepted
+
+## Context
+Considering all the requirements and the minimal viable system, we have reached a concensus on the top 7 characteristcs for designing the system.
+
+## Decision
+As a team we chose the following(in priority order):
+
+1. Cost
+2. Performance (reasonable performance)
+3. Scalability (long term scalability / we don't want to hinder growth)
+4. Extensibility
+5. Simplicity
+6. Testability
+7. Interoperability
+
+## References
+For more information about Architectual Characteristics, please click [here](https://github.com/plmsprd/AnimAI/blob/main/2-Analysis/README.adoc#architectural-characteristics)

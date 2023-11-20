@@ -1,8 +1,0 @@
-# Is Cost important as architecture characteristic? 
-
-## Status
-Accepted
-
-## Decision
-Yes, because it is charity
-

@@ -1,0 +1,17 @@
+# ADR-010 Testability Is A Major Important Architectural Characteristic 
+
+## Status
+Accepted
+
+## Context
+As for long term consideration, testability is important for AI training verification, it should has its capability to attain to that to reduce maintanence cost.
+
+## Decision
+Yes
+
+## Consultation
+Torsten Lenk: Yes, because of small team. 
+Bruce Yu: No, because the complex alogithms are outside of our system. 
+Crystal Kim: No. 
+Pamela Naval: Yes, need to be able to upload data and not loose anything.
+

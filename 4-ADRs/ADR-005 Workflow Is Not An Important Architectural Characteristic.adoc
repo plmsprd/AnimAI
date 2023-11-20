@@ -1,0 +1,11 @@
+# ADR-005 Workflow Is Not An Important Architectural Characteristic
+
+## Status
+Accepted
+
+## Context
+Since the system does not need much human intervention, the procedure for each operation is relatively short, thus, there is no complex/lengthy process that should be highly focused. 
+
+## Decision
+No. No complex workflows are necessary
+

@@ -1,0 +1,14 @@
+# ADR-002 Cloud System
+
+## Status
+Accepted
+
+## Context
+As users are spreaded in different parts of the world, a centralized platform is needed to connect all of them. A cloud system is a viable way to achieve this goal.
+
+Alternative: A mini client application can be installed on users' computers, in this case, this mini-app can assist users in dealing with the videos.
+
+## Decision
+Yes, we need cloud system to upload/share videos for AI training and other purposes.
+
+

@@ -1,0 +1,15 @@
+# ADR-008 Simplicity Is An important Architectural Characteristic 
+
+## Status
+Accepted
+
+## Context
+As the sponsor is a non profit organization, maintaining the system with low/no cost is necessary.
+
+## Decision
+Yes
+
+## Consultation
+Bruce Yu: It is not on the top of the list, but important. 
+Crystal Kim: Yes. 
+Torsten Lenk: Yes, we need simplicity because they won't have a big team to maintain the solution.

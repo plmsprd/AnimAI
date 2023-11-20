@@ -1,11 +1,11 @@
-# Role of user computer
+# ADR-015 Users Will Not Upload to Third-party Platforms Directly
 
 ## Status
 Accepted
 
-## Discussion
+## Context
 It seems tempting to move the load and to the user computer. However, if two or more different detection/training platforms are used, the same video has to be uploaded multiple times, which is certainly not intended.
 
 
 ## Decision 
-User will not upload to third-party platforms lik tensor flow directly. Central storage will be used.
+No, user will not upload to third-party platforms link tensor flow directly. Central storage will be used.
