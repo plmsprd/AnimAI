@@ -8,7 +8,7 @@ image::../images/context.png[Context Picture]
 ## Architectural Characteristics
 
 Many of our ADRs deal with the architectural 
-characteristics (ADR 000-013, 017). We selected the following characteristics:
+characteristics (ADR 000-013, 017). We selected the following characteristics based on our [analysis of Wildlife.AI requirements](Requirements-Characteristics-Mapping):
 
 . cost
 . performance (reasonable performance)
