@@ -1,0 +1,46 @@
+# ADR-000 Individual Prefered Architectual Characteristics
+
+## Status
+Superceded by [ADR-013 Architectural Characteristics Summary](https://github.com/plmsprd/AnimAI/blob/main/ADRs/013%20Architectural%20Characteristics%20Summary.adoc#decision)
+
+## Context
+This is the initial stage of understanding the requirements for each member of the team, its purpose is to initiate and facilitate the discussion among team members.
+
+## Decision
+No decision was made at this stage.
+
+## Consultation
+
+###Bruce Yu
+1.workflow (*)
+2.performance (*)
+3.scalability (*)
+4.feasibility
+5.extensibility
+6.responsiveness
+7.concurrency
+
+###Pamela Naval
+1.interoperability (*)
+2.availability (*)
+3.configurability
+4.concurrency
+5.elasticity (*)
+6.data integrity/concistency
+responsiveness
+testability
+
+###Crystal Kim
+1.workflow (*)
+2.data integrity (*)
+3.configurability (*)
+4.efficiency
+5.performance
+6.scalability
+7.availability
+
+###Torsten Lenk
+1.Interoperabiltiy
+2.adapatbility
+3.extensibiltity
+4.scalibity

@@ -1,0 +1,12 @@
+# ADR-007 Performance Is An Important Architectural Characteristic 
+
+## Status
+Accepted
+
+## Context
+Considering the small number of users, the quantity of videos are not expected to flush in within short time.
+
+## Decision
+No, It is a manual process to get data. Not a real issue on cloud. could pick low cost storage.
+
+

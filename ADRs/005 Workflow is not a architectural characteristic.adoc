@@ -1,9 +1,0 @@
-# Is Workflow an important architectural characteristic?
-
-## Status
-Accepted
-
-## Decision
-
-No. No complex workflows necessary
-

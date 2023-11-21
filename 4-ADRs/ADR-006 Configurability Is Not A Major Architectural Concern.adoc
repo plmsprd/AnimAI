@@ -1,0 +1,12 @@
+# ADR-006 Configurability Is Not A Major Architectural Characteristic
+
+## Status
+Accepted
+
+## Context
+From the use cases, users only adjust camera settings, system admins may have system authorization configurations, there is no much configuraion needed in the system.
+
+## Decision
+No, camera is a blackbox, we don't need separate configurations on backend.
+
+

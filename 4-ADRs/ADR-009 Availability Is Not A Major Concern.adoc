@@ -1,0 +1,16 @@
+# ADR-009 Availability Is An Important Architectural Characteristic
+
+## Status
+Accepted
+
+## Context
+The system is very focused on videos processing and training, users do not need a lot of operations in the system but uploading their video clips and getting the report.
+
+## Decision
+No, not among the top 3 characteristics.
+
+## Consultation
+Bruce Yu: Important, but not crucial. 
+Pamela Naval: Only for alert message. 
+Torsten Lenk: Need availability to adjust camera settings. 
+

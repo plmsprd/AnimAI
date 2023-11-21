@@ -1,0 +1,12 @@
+# ADR-004 Cost Is Important 
+
+## Status
+Accepted
+
+## Context
+The sponsor of this project is a non-profit organization, realzing all the functionalities with the lowest cost will be preferable. At the starting phase, the architecture of the system should support all the basic needs in the requirements, meanwhile, it should also weigh more on cost. 
+
+## Decision
+Yes, because it is charity
+
+

@@ -1,0 +1,12 @@
+# ADR-003 Geoprivacy Security for Videos
+
+## Status 
+Accepted
+
+## Context
+To protect the endagered animals, storing the videos uploaded by all the users in a permitted means is neccessary. Our system will support different levels of security for the videos, such as Geography, user groups etc.
+
+## Decision
+Yes, this should be supported.
+
+

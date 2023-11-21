@@ -1,0 +1,12 @@
+# ADR-001 No Scalability
+
+## Status
+Superceded by [ADR-017 Need Scalability to Some Degree](https://github.com/plmsprd/AnimAI/blob/main/ADRs/017%20Need%20Scalability%20to%20Some%20Degree.adoc)
+
+## Context
+The system will only be used by a small number of users as described in the requirements.
+Apart from that no realtime readout might be need as the majority of users do not have sufficient bandwidh and they may need to transfer that video clips via SD cards. With factoring in all the scenrios, therefore, scalability may not be a top concern for now.
+
+## Decision
+At the initial stage of this system, scalability will not be in the top 3 characteristcs.
+
