@@ -47,7 +47,7 @@ influences like wind should be eliminated as early as possible in the process to
 ## Possible opportunity in the future: Strong internet connectivity
 
 Faster internet connections like satelite-based Starlink would allow 
-video upload in the future even in remote areas. This would allow new use cases where the training could start on the mothe most of the work can be done remotely. 
+video upload in the future even in remote areas. This would allow new use cases where the training could start on the module deployed on a micro-controller/edge device but most of the work can be done remotely. 
 However, power consumption and cost might limit the use. 
 
 The diagram is the same with the modifications circled in red.
