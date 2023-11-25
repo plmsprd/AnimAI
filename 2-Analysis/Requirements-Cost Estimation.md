@@ -11,7 +11,7 @@
 
 
 <h2>Basic</h2>
-Currency: USD
+Currency: USD <br/>
 Region: US-west
 
 | Service category | Service type | Description | Estimated monthly cost | Saving plan monthly cost | Notes |
