@@ -10,7 +10,7 @@
 | Data Management      | Azure database           | AWS RDS                           |
 
 
-<h2>Basic</h2>
+<h2>Azure Basic</h2>
 Currency: USD <br/>
 Region: US-west
 
@@ -25,7 +25,7 @@ Region: US-west
 | Identity          | Azure Active Directory External Identities | Premium P1 tier: 50,000 monthly active user(s), 0 SMS/Phone Events | $0.00 | Your first 50,000 MAUs per month are free for both Premium P1 and Premium P2 features. More than 50,000 MAU, <br/> <br/>basic: &#36;0.00325, <br/>P2: $0.01625 | MAU: Month Activate Users
 |                   | **Total** | | **$636.00** | **$558.26** | Depends on AKS payment plan selection. Save &#36;10 to &#36;40 |
 
-<h2>Advanced</h2>
+<h2>Azure Advanced</h2>
 
 | Service category | Service type | Description | Estimated monthly cost | Saving plan monthly cost | Notes |
 |-------------------|--------------|-------------|-------------------------|---------------------------|-------|
