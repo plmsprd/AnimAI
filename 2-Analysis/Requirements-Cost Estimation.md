@@ -39,7 +39,7 @@ Region: US-west
 | Identity          | Azure Active Directory External Identities | Premium P1 tier: 50,000 monthly active user(s), 0 SMS/Phone Events | $0.00 | Your first 50,000 MAUs per month are free for both Premium P1 and Premium P2 features. More than 50,000 MAU, <br/>basic: &#36;0.00325, P2: &#36;0.01625 | MAU: Month Activate Users
 |                   | **Total** | | **$1,399.64** | **$1,244.16** | Depends on AKS payment plan selection. Save &#36;10 to &#36;40 |
 
-<h2>AWS Estimation Equivalent Setup</h2>
+<h2>Equivalent Setup for AWS</h2>
 
 | Service category | Service type                            | Description                                                                                                                                                                                                                                   | Estimated monthly cost | Notes                                                                                                         |
 |------------------|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|---------------------------------------------------------------------------------------------------------------|
