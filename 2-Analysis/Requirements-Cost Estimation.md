@@ -2,7 +2,7 @@
 
 |                      | Azure                    | Aws                               |
 |----------------------|--------------------------|-----------------------------------|
-| UI                   | Azure App Service        | AWS ECS/S3                        |
+| UI                   | Azure App Service        | AWS EC2/Elastic Beanstalk         |
 | Event Processing     | Azure Functions          | AWS Lambda                        |
 |                      | Azure Notification Hubs  | AWS Simple Notification Service   |
 | Labeling/Training/ML | Azure Kubernetes Service | Amazon Elastic Kubernetes Service |
