@@ -18,4 +18,4 @@ As a team we chose the following(in priority order):
 7. Interoperability
 
 ## References
-For more information about Architectual Characteristics, please click [here](https://github.com/plmsprd/AnimAI/blob/main/2-Analysis/README.adoc#architectural-characteristics)
+For more information about Architectual Characteristics, please click [here](/2-Analysis/README.adoc#architectural-characteristics)

@@ -16,4 +16,4 @@ while keeping cost and complexity low.
 Service-based Architecture
 
 ## References
-For more information about deciding architecture, please click [here](https://github.com/plmsprd/AnimAI/blob/main/2-Analysis/README.adoc#architecture-decision)
+For more information about deciding architecture, please click [here](/2-Analysis/README.adoc#architecture-decision)
