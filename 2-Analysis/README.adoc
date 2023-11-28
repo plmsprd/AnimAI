@@ -10,7 +10,7 @@ image::../images/context.png[Context Picture]
 Many of our ADRs deal with the architectural 
 characteristics (ADR 000-013, 017). We selected the following characteristics based on our analysis of xref:Requirements-Characteristics-Mapping.md[Wildlife.AI requirements]:
 
-. xref:Requirements-Cost Estimation.md[cost]
+. cost
 . performance (reasonable performance)
 . scalability (long term scalability)
 . extensibility
